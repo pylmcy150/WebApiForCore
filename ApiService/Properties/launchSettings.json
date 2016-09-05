@@ -1,9 +1,9 @@
 {
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
+  "iisSettings": {//"#选择以IIS" "Express启动",
+    "windowsAuthentication": false,//#是否启用windows身份验证
+    "anonymousAuthentication": true,//#是否启用匿名身份验证
     "iisExpress": {
-      "applicationUrl": "http://localhost:11468/",
+      "applicationUrl": "http://localhost:5000/api/", //#IIS Express随机端口
       "sslPort": 0
     }
   },
@@ -11,17 +11,17 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ApiService": {
+    "Api.Services": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/api/values",
+      "launchUrl": "http://localhost:5000/api/", //#本地自宿主端口
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Staging"
       }
     }
   }

@@ -1,9 +1,15 @@
 ﻿{
+  "title": "Api.Core",
+  "copyright": "pylmcy150@sina.cn",
+  "description": "Api.Core",
+
   "dependencies": {
-    "Microsoft.NETCore.App": {
-      "version": "1.0.0",
-      "type": "platform"
-    },
+    "Api.Common": "1.0.0-*",
+    "Api.Dto": "1.0.0-*",
+    "Api.Interfaces": "1.0.0-*",
+    "Autofac.Extensions.DependencyInjection": "4.0.0",
+    "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
+    "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.Mvc": "1.0.0",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
@@ -13,7 +19,10 @@
     "Microsoft.Extensions.Logging": "1.0.0",
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
-    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0"
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
+    "NLog.Extensions.Logging": "1.0.0-rtm-alpha4",
+    "System.Text.Encoding.CodePages": "4.0.1"
   },
 
   "tools": {
@@ -22,10 +31,15 @@
 
   "frameworks": {
     "netcoreapp1.0": {
-      "imports": [
-        "dotnet5.6",
-        "portable-net45+win8"
-      ]
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0",
+          "type": "platform"
+        }
+
+      },
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+
     }
   },
 
@@ -43,13 +57,17 @@
   "publishOptions": {
     "include": [
       "wwwroot",
-      "Views",
-      "Areas/**/Views",
       "appsettings.json",
-      "web.config"
+      "web.config",
+      "nlog.config" //NLog配置
     ]
   },
-
+  // 发布平台
+  "runtimes": {
+    "win7-x64": {},
+    "win10-x64": {},
+    "ubuntu.14.04-x64": {}
+  },
   "scripts": {
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   }

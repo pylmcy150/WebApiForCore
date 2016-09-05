@@ -1,1 +1,6 @@
-#:F:\VsGit\Source\Repos\WebApiForCore\ApiService\ApiService.xproj
+#:F:\VsGit\Source\Repos\WebApiForCore\Api.Repositories\Api.Repositories.xproj
+F:\VsGit\Source\Repos\WebApiForCore\Api.Repositories\Api.Repositories.xproj|F:\VsGit\Source\Repos\WebApiForCore\Api.Domain\Api.Domain.xproj
+F:\VsGit\Source\Repos\WebApiForCore\Api.Repositories\Api.Repositories.xproj|F:\VsGit\Source\Repos\WebApiForCore\Api.Dto\Api.Dto.xproj
+F:\VsGit\Source\Repos\WebApiForCore\Api.Repositories\Api.Repositories.xproj|F:\VsGit\Source\Repos\WebApiForCore\Api.Infrastructure\Api.Infrastructure.xproj
+F:\VsGit\Source\Repos\WebApiForCore\Api.Domain\Api.Domain.xproj|F:\VsGit\Source\Repos\WebApiForCore\Api.Dto\Api.Dto.xproj
+F:\VsGit\Source\Repos\WebApiForCore\Api.Domain\Api.Domain.xproj|F:\VsGit\Source\Repos\WebApiForCore\Api.Infrastructure\Api.Infrastructure.xproj

@@ -1,0 +1,2 @@
+2016-09-06 00:38:32.3029|ApiService.Filters.LogErrorFilter|INFO|  在执行 controller[Values] 的 action[Get] 时产生异常,Error[123] 
+2016-09-06 00:39:35.9630|ApiService.Filters.LogErrorFilter|INFO|  在执行 controller[Values] 的 action[Get] 时产生异常,Error[123] 

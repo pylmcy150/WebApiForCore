@@ -312,3 +312,170 @@ ApiService.Controllers.ValuesController.Get (ApiService)
 2016-09-06 00:40:02.9273|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKULLBO847H3" sending FIN. 
 2016-09-06 00:40:02.9273|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKULLBO847H3" sent FIN with status "0". 
 2016-09-06 00:40:02.9458|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKULLBO847H3" stopped. 
+2016-09-06 23:08:24.0915|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-06 23:08:24.8881|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-06 23:08:25.0222|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMCUJ5DR96" started. 
+2016-09-06 23:08:25.0222|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMCUJ5DR97" started. 
+2016-09-06 23:08:25.3352|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-06 23:08:25.3382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-06 23:08:25.5617|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 296.1021ms 200  
+2016-09-06 23:08:25.6757|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMCUJ5DR96" completed keep alive response. 
+2016-09-06 23:08:26.4273|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-06 23:08:26.4468|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1193.4969ms 404  
+2016-09-06 23:08:26.4623|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMCUJ5DR97" completed keep alive response. 
+2016-09-06 23:08:26.5484|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+2016-09-06 23:08:26.5549|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-06 23:08:26.5549|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 15.8489ms 404  
+2016-09-06 23:08:26.5719|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMCUJ5DR96" completed keep alive response. 
+2016-09-06 23:08:59.7579|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values   
+2016-09-06 23:08:59.7849|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Values'. 
+2016-09-06 23:08:59.8454|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Post (ApiService)' with id 'c5e7dcbb-9f77-403f-9830-b04f92c3ff0e' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:09:06.4185|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values   
+2016-09-06 23:09:06.4185|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Values'. 
+2016-09-06 23:09:06.4340|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.ValuesController.Get (ApiService) 
+2016-09-06 23:09:06.4340|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Post (ApiService)' with id 'c5e7dcbb-9f77-403f-9830-b04f92c3ff0e' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:09:08.7248|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.ValuesController.Get (ApiService) 
+2016-09-06 23:09:08.8664|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.ValuesController.Get (ApiService) with arguments () - ModelState is Valid 
+2016-09-06 23:09:08.8694|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.ValuesController.Get (ApiService) with arguments () - ModelState is Valid 
+2016-09-06 23:09:26.8517|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Values] 的 action[Get] 时产生异常,Error[Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.] 
+2016-09-06 23:09:26.8517|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Values] 的 action[Get] 时产生异常,Error[Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.] 
+2016-09-06 23:09:35.2517|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|INFO|Executing JsonResult, writing value 123. 
+2016-09-06 23:09:35.2517|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|INFO|Executing JsonResult, writing value 123. 
+2016-09-06 23:09:35.5158|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action ApiService.Controllers.ValuesController.Get (ApiService) in 26755.4569ms 
+2016-09-06 23:09:35.5158|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action ApiService.Controllers.ValuesController.Get (ApiService) in 29042.1232ms 
+2016-09-06 23:09:35.5318|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 29113.3183ms 200 application/json; charset=utf-8 
+2016-09-06 23:09:35.5318|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 35782.6765ms 200 application/json; charset=utf-8 
+2016-09-06 23:09:35.5513|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMCUJ5DR96" completed keep alive response. 
+2016-09-06 23:09:35.5608|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMCUJ5DR97" completed keep alive response. 
+2016-09-06 23:15:34.9245|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-06 23:15:35.1566|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-06 23:15:35.3511|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMD2JDC3S9" started. 
+2016-09-06 23:15:35.3511|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMD2JDC3SA" started. 
+2016-09-06 23:15:35.5776|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-06 23:15:35.5776|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-06 23:15:35.6951|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 175.3607ms 200  
+2016-09-06 23:15:35.8241|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMD2JDC3S9" completed keep alive response. 
+2016-09-06 23:15:36.1072|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-06 23:15:36.1242|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 617.9109ms 404  
+2016-09-06 23:15:36.1347|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMD2JDC3SA" completed keep alive response. 
+2016-09-06 23:16:11.2742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values   
+2016-09-06 23:16:11.2742|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Values'. 
+2016-09-06 23:16:11.3327|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Post (ApiService)' with id 'f1fefa97-8434-41bc-8eba-122315f5c630' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:16:15.7734|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.ValuesController.Get (ApiService) 
+2016-09-06 23:16:15.8899|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.ValuesController.Get (ApiService) with arguments () - ModelState is Valid 
+2016-09-06 23:16:19.1153|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Values] 的 action[Get] 时产生异常,Error[Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.] 
+2016-09-06 23:16:19.7719|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|INFO|Executing JsonResult, writing value 123. 
+2016-09-06 23:16:19.9839|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action ApiService.Controllers.ValuesController.Get (ApiService) in 4195.8413ms 
+2016-09-06 23:16:19.9984|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 8723.9696ms 200 application/json; charset=utf-8 
+2016-09-06 23:16:20.0109|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMD2JDC3S9" completed keep alive response. 
+2016-09-06 23:16:27.2733|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/1   
+2016-09-06 23:16:27.2843|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'DefaultApi' and template 'api/{controller}/{id?}'. 
+2016-09-06 23:16:27.3118|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2016-09-06 23:16:27.3118|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-06 23:16:27.3278|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 55.4206ms 404  
+2016-09-06 23:16:27.3278|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMD2JDC3SA" completed keep alive response. 
+2016-09-06 23:16:35.9556|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values/1   
+2016-09-06 23:16:35.9621|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Values/{id}'. 
+2016-09-06 23:16:35.9621|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Put (ApiService)' with id 'ee85d16b-9d18-44cf-8e8d-aa2c7f153354' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:16:35.9776|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Delete (ApiService)' with id '549e4504-9336-4d4f-a42c-a3f24d834fcf' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:16:51.9016|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.ValuesController.Get (ApiService) 
+2016-09-06 23:16:52.0641|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.ValuesController.Get (ApiService) with arguments (1) - ModelState is Valid 
+2016-09-06 23:16:53.8353|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method ApiService.Controllers.ValuesController.Get (ApiService), returned result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2016-09-06 23:16:53.8699|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2016-09-06 23:16:53.8829|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain; charset=utf-8' to write the response. 
+2016-09-06 23:16:53.8829|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2016-09-06 23:16:53.9344|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action ApiService.Controllers.ValuesController.Get (ApiService) in 2020.6201ms 
+2016-09-06 23:16:53.9454|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 17989.5681ms 200 text/plain; charset=utf-8 
+2016-09-06 23:16:53.9454|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMD2JDC3S9" completed keep alive response. 
+2016-09-06 23:39:58.3848|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-06 23:39:58.8444|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-06 23:39:58.9309|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDG7J4K30" started. 
+2016-09-06 23:39:58.9309|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDG7J4K2V" started. 
+2016-09-06 23:39:59.2744|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-06 23:39:59.2744|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-06 23:39:59.4145|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 213.2009ms 200  
+2016-09-06 23:39:59.5600|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDG7J4K30" completed keep alive response. 
+2016-09-06 23:39:59.8611|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-06 23:39:59.8746|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 690.7737ms 404  
+2016-09-06 23:39:59.8836|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDG7J4K2V" completed keep alive response. 
+2016-09-06 23:40:06.8424|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values   
+2016-09-06 23:40:06.8559|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Values'. 
+2016-09-06 23:40:06.8984|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Post (ApiService)' with id '0befcd1d-4a87-41c5-be88-6f5021359540' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:40:06.8984|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|ERROR|Request matched multiple actions resulting in ambiguity. Matching actions: ApiService.Controllers.ValuesController.Get (ApiService)
+ApiService.Controllers.ValuesController.Test (ApiService) 
+2016-09-06 23:40:07.0700|Microsoft.AspNetCore.Server.Kestrel|ERROR|Connection id "0HKUMDG7J4K30": An unhandled exception was thrown by the application. Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+ApiService.Controllers.ValuesController.Get (ApiService)
+ApiService.Controllers.ValuesController.Test (ApiService)
+2016-09-06 23:40:07.0830|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 239.547ms 200  
+2016-09-06 23:40:07.0900|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDG7J4K30" completed keep alive response. 
+2016-09-06 23:40:08.9647|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values/test   
+2016-09-06 23:40:08.9647|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Values/{id}'. 
+2016-09-06 23:40:08.9782|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Put (ApiService)' with id '0ba1a114-e912-4d10-925e-9718b87ec4cc' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:40:08.9782|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Delete (ApiService)' with id '3c37417e-b6ab-45a6-bc3d-e21631361391' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:40:09.0697|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.ValuesController.Get (ApiService) 
+2016-09-06 23:40:09.3327|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.ValuesController.Get (ApiService) with arguments (0) - ModelState is Invalid 
+2016-09-06 23:40:13.6817|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method ApiService.Controllers.ValuesController.Get (ApiService), returned result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2016-09-06 23:40:13.7322|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2016-09-06 23:40:13.7443|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain; charset=utf-8' to write the response. 
+2016-09-06 23:40:13.7443|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2016-09-06 23:40:13.8268|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action ApiService.Controllers.ValuesController.Get (ApiService) in 4747.2196ms 
+2016-09-06 23:40:13.8363|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 4873.1368ms 200 text/plain; charset=utf-8 
+2016-09-06 23:40:13.8363|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDG7J4K2V" completed keep alive response. 
+2016-09-06 23:42:01.8533|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-06 23:42:02.0688|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-06 23:42:02.2364|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDHCB3H5F" started. 
+2016-09-06 23:42:02.2364|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDHCB3H5E" started. 
+2016-09-06 23:42:02.4279|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-06 23:42:02.4279|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-06 23:42:02.5339|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 147.0033ms 200  
+2016-09-06 23:42:02.6694|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDHCB3H5E" completed keep alive response. 
+2016-09-06 23:42:02.9184|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-06 23:42:02.9334|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 558.0423ms 404  
+2016-09-06 23:42:02.9334|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDHCB3H5F" completed keep alive response. 
+2016-09-06 23:42:06.6221|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values/test   
+2016-09-06 23:42:06.6366|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Values/{id}'. 
+2016-09-06 23:42:06.6786|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Put (ApiService)' with id '7cf60884-fdba-4efd-8a62-1c0ef1e2cc2d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:42:06.6861|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Delete (ApiService)' with id 'c63d5700-06cd-495d-b176-4b84c2f87188' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:42:06.7756|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.ValuesController.Get (ApiService) 
+2016-09-06 23:42:07.0186|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.ValuesController.Get (ApiService) with arguments (0) - ModelState is Invalid 
+2016-09-06 23:42:07.0272|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method ApiService.Controllers.ValuesController.Get (ApiService), returned result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2016-09-06 23:42:07.0732|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2016-09-06 23:42:07.0862|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain; charset=utf-8' to write the response. 
+2016-09-06 23:42:07.0862|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2016-09-06 23:42:07.1627|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action ApiService.Controllers.ValuesController.Get (ApiService) in 375.755ms 
+2016-09-06 23:42:07.1737|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 552.3754ms 200 text/plain; charset=utf-8 
+2016-09-06 23:42:07.1842|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDHCB3H5E" completed keep alive response. 
+2016-09-06 23:42:10.0825|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values/test   
+2016-09-06 23:42:10.0910|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Values/{id}'. 
+2016-09-06 23:42:10.0910|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Put (ApiService)' with id '7cf60884-fdba-4efd-8a62-1c0ef1e2cc2d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:42:10.1060|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.ValuesController.Delete (ApiService)' with id 'c63d5700-06cd-495d-b176-4b84c2f87188' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-06 23:42:10.1060|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.ValuesController.Get (ApiService) 
+2016-09-06 23:42:10.1246|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.ValuesController.Get (ApiService) with arguments (0) - ModelState is Invalid 
+2016-09-06 23:42:10.1246|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method ApiService.Controllers.ValuesController.Get (ApiService), returned result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2016-09-06 23:42:10.1395|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2016-09-06 23:42:10.1495|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain; charset=utf-8' to write the response. 
+2016-09-06 23:42:10.1495|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2016-09-06 23:42:10.1766|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action ApiService.Controllers.ValuesController.Get (ApiService) in 54.496ms 
+2016-09-06 23:42:10.1886|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 106.7203ms 200 text/plain; charset=utf-8 
+2016-09-06 23:42:10.1986|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDHCB3H5F" completed keep alive response. 
+2016-09-06 23:43:54.0046|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-06 23:43:54.1687|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-06 23:43:54.2066|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDIDMUEMG" started. 
+2016-09-06 23:43:54.3566|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-06 23:43:54.6197|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-06 23:43:54.6442|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 317.7113ms 404  
+2016-09-06 23:43:54.7037|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDIDMUEMG" completed keep alive response. 
+2016-09-06 23:43:59.9689|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/values/test   
+2016-09-06 23:43:59.9854|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'DefaultApi' and template 'api/{controller}/{id?}'. 
+2016-09-06 23:44:00.0369|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2016-09-06 23:44:00.0449|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'DefaultApi1' and template 'api/{controller}/{action}/{id?}'. 
+2016-09-06 23:44:00.1414|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.ValuesController.Test (ApiService) 
+2016-09-06 23:44:00.2419|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.ValuesController.Test (ApiService) with arguments () - ModelState is Valid 
+2016-09-06 23:44:00.2514|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method ApiService.Controllers.ValuesController.Test (ApiService), returned result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2016-09-06 23:44:00.2949|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2016-09-06 23:44:00.3094|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2016-09-06 23:44:00.3094|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2016-09-06 23:44:00.6135|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action ApiService.Controllers.ValuesController.Test (ApiService) in 461.2642ms 
+2016-09-06 23:44:00.6230|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 654.1294ms 200 application/json; charset=utf-8 
+2016-09-06 23:44:00.6340|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUMDIDMUEMG" completed keep alive response. 

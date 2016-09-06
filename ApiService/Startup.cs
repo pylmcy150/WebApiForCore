@@ -43,7 +43,7 @@ namespace ApiService
             services.AddMvc();
 
             //TODO:配置Filter
-            services.AddMvc(FilterConfig.RegisterGlobalFilters());
+            services.AddMvc(FilterConfig.RegisterGlobalOptions());
             services.AddOptions();
 
             //TODO:配置Cors策略

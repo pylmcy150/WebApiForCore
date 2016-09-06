@@ -6,19 +6,31 @@ using System.Threading.Tasks;
 
 namespace ApiService.Utils
 {
-    public class JsonResultExtension : JsonResult
+    public class JsonResultExt
     {
         public JsonResultStatus Code { get; protected set; }
 
-        public string Message { get; protected set; }
+        public object Token { get; protected set; }
+
+        public object Value { get; protected set; }
 
 
-        public JsonResultExtension(JsonResultStatus code, string message) :
-            base(message)
+        public JsonResultExt(object obj)
+        {
+            Value = obj;
+            Code = JsonResultStatus.Success;
+        }
+
+        public JsonResultExt(JsonResultStatus code, object obj) :
+            this(obj)
         {
             Code = code;
-            Message = message;
-            base.StatusCode = (int)code;
+        }
+
+        public JsonResultExt(JsonResultStatus code, object obj, object token) :
+            this(code, obj)
+        {
+            Token = token;
         }
     }
 

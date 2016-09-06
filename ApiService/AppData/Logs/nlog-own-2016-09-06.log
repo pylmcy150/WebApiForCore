@@ -1,2 +1,5 @@
 2016-09-06 00:38:32.3029|ApiService.Filters.LogErrorFilter|INFO|  在执行 controller[Values] 的 action[Get] 时产生异常,Error[123] 
 2016-09-06 00:39:35.9630|ApiService.Filters.LogErrorFilter|INFO|  在执行 controller[Values] 的 action[Get] 时产生异常,Error[123] 
+2016-09-06 23:09:26.8517|ApiService.Filters.LogErrorFilter|INFO|  在执行 controller[Values] 的 action[Get] 时产生异常,Error[Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.] 
+2016-09-06 23:09:26.8517|ApiService.Filters.LogErrorFilter|INFO|  在执行 controller[Values] 的 action[Get] 时产生异常,Error[Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.] 
+2016-09-06 23:16:19.1153|ApiService.Filters.LogErrorFilter|INFO|  在执行 controller[Values] 的 action[Get] 时产生异常,Error[Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.] 

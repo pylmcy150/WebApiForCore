@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Api.Application
+namespace ApiService
 {
-    public class Class1
+    public class AppSetting
     {
-        public Class1()
-        {
-        }
+        public List<string> AssemblyNames { get; set; }
     }
 }

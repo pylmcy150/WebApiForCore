@@ -5,7 +5,9 @@
     "Api.Domain": "1.0.0-*",
     "Api.Dto": "1.0.0-*",
     "Api.Infrastructure": "1.0.0-*",
-    "NETStandard.Library": "1.6.0"
+    "Autofac": "4.1.0",
+    "NETStandard.Library": "1.6.0",
+    "sqlSugarCore": "2.7.0.1"
   },
 
   "frameworks": {

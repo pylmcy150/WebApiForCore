@@ -12,6 +12,7 @@ using System.Text;
 using NLog.Extensions.Logging;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Cors.Internal;
+using Autofac.Extensions.DependencyInjection;
 
 namespace ApiService
 {
@@ -44,8 +45,7 @@ namespace ApiService
 
             //TODO:配置Filter
             services.AddMvc(FilterConfig.RegisterGlobalOptions());
-            services.AddOptions();
-
+            
             //TODO:配置Cors策略
             services.AddCors(CorsPolicy.RegisterAllowSpecificOrigin());
             services.Configure<MvcOptions>(options =>
@@ -54,10 +54,12 @@ namespace ApiService
             });
 
             //TODO:读取配置configHelper
-            //services.Configure<AppSettings>(Configuration.GetSection("AppSetting"));
+            services.AddOptions(); 
+            services.Configure<AppSetting>(Configuration.GetSection("AppSetting"));
 
             //TODO:配置IOC容器
-            ApplicationContainer = IocConfig.IocContainerFactory(services);
+            ApplicationContainer = IocConfig.IocContainerFactory(services, Configuration);
+            //AutofacServiceProvider
             return ApplicationContainer.Resolve<IServiceProvider>();
         }
 

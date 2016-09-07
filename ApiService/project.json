@@ -4,9 +4,13 @@
   "description": "Api.Core",
 
   "dependencies": {
+    "Api.Application": "1.0.0-*",
+    //"Api.Application": "1.0.0-*",
     "Api.Common": "1.0.0-*",
     "Api.Dto": "1.0.0-*",
     "Api.Interfaces": "1.0.0-*",
+    "Api.Repositories": "1.0.0-*",
+    //"Api.Repositories": "1.0.0-*",
     "Autofac.Extensions.DependencyInjection": "4.0.0",
     "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",

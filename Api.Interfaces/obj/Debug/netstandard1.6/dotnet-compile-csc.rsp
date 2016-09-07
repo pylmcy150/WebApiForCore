@@ -54,5 +54,5 @@
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Administrator\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
 -r:"F:\VsGit\Source\Repos\WebApiForCore\Api.Dto\bin\Debug\netstandard1.6\Api.Dto.dll"
-"F:\VsGit\Source\Repos\WebApiForCore\Api.Interfaces\Class1.cs"
+"F:\VsGit\Source\Repos\WebApiForCore\Api.Interfaces\IStudentManager.cs"
 "F:\VsGit\Source\Repos\WebApiForCore\Api.Interfaces\Properties\AssemblyInfo.cs"

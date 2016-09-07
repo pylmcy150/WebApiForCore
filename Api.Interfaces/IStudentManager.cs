@@ -1,14 +1,13 @@
-﻿using System;
+﻿using Api.Dto;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Api.Interfaces
 {
-    public class Class1
+    public interface IStudentManager
     {
-        public Class1()
-        {
-        }
+        StudentDto Get(string id);
     }
 }

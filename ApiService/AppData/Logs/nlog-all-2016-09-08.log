@@ -1,0 +1,311 @@
+2016-09-08 01:02:15.9267|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 01:02:16.1867|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 01:02:16.3207|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN82S8BTI4" started. 
+2016-09-08 01:02:16.3207|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN82S8BTI5" started. 
+2016-09-08 01:02:16.6108|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 01:02:16.6108|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 01:02:16.7693|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 271.9313ms 200  
+2016-09-08 01:02:17.0683|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN82S8BTI5" completed keep alive response. 
+2016-09-08 01:02:17.3254|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 01:02:17.3364|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 854.7877ms 404  
+2016-09-08 01:02:17.3364|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN82S8BTI4" completed keep alive response. 
+2016-09-08 01:02:17.3714|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico   
+2016-09-08 01:02:17.3714|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 01:02:17.3869|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 15.89ms 404  
+2016-09-08 01:02:17.3869|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN82S8BTI5" completed keep alive response. 
+2016-09-08 01:02:58.3243|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 01:02:58.5848|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 01:02:58.7443|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDH0" started. 
+2016-09-08 01:02:58.7443|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDGV" started. 
+2016-09-08 01:02:58.9509|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 01:02:58.9509|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 01:02:59.0629|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 154.9193ms 200  
+2016-09-08 01:02:59.1874|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDH0" completed keep alive response. 
+2016-09-08 01:02:59.5534|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 01:02:59.5659|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 671.0951ms 404  
+2016-09-08 01:02:59.5754|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDGV" completed keep alive response. 
+2016-09-08 01:03:23.3486|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 01:03:23.3606|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 01:03:23.4041|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id 'cf897c10-d987-4254-add5-cdf4d019147c' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:03:23.4041|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '7fd0c93b-e3b0-4aa0-8c12-ef5bcac62ded' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:03:23.5071|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 01:03:23.5792|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Student] 的 action[Get] 时产生异常,Error[Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.] 
+2016-09-08 01:03:23.6907|Microsoft.AspNetCore.Server.Kestrel|ERROR|Connection id "0HKUN838SUDH0": An unhandled exception was thrown by the application. Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.
+2016-09-08 01:03:23.7007|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 351.7433ms 200  
+2016-09-08 01:03:23.7007|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDH0" completed keep alive response. 
+2016-09-08 01:03:29.0802|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 01:03:29.0882|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 01:03:29.0882|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id 'cf897c10-d987-4254-add5-cdf4d019147c' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:03:29.0882|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '7fd0c93b-e3b0-4aa0-8c12-ef5bcac62ded' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:03:29.1047|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 01:03:29.1047|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Student] 的 action[Get] 时产生异常,Error[Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.] 
+2016-09-08 01:03:29.1352|Microsoft.AspNetCore.Server.Kestrel|ERROR|Connection id "0HKUN838SUDGV": An unhandled exception was thrown by the application. Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.
+2016-09-08 01:03:29.1352|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 63.6767ms 200  
+2016-09-08 01:03:29.1352|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDGV" completed keep alive response. 
+2016-09-08 01:04:15.0619|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 01:04:15.0619|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 01:04:15.0724|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id 'cf897c10-d987-4254-add5-cdf4d019147c' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:04:15.0724|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '7fd0c93b-e3b0-4aa0-8c12-ef5bcac62ded' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:04:15.0724|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 01:04:44.9057|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Student] 的 action[Get] 时产生异常,Error[Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.] 
+2016-09-08 01:04:44.9357|Microsoft.AspNetCore.Server.Kestrel|ERROR|Connection id "0HKUN838SUDH0": An unhandled exception was thrown by the application. Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.
+2016-09-08 01:04:44.9357|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 29884.3691ms 200  
+2016-09-08 01:04:44.9502|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDH0" completed keep alive response. 
+2016-09-08 01:04:48.7107|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDGV" received FIN. 
+2016-09-08 01:04:48.7162|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDGV" disconnecting. 
+2016-09-08 01:04:48.7162|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDGV" sending FIN. 
+2016-09-08 01:04:48.7307|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDGV" sent FIN with status "0". 
+2016-09-08 01:04:48.7307|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN838SUDGV" stopped. 
+2016-09-08 01:07:30.6034|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 01:07:30.8595|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 01:07:30.9795|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN85Q1650V" started. 
+2016-09-08 01:07:30.9795|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN85Q16510" started. 
+2016-09-08 01:07:31.1885|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 01:07:31.1885|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 01:07:31.3035|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 153.959ms 200  
+2016-09-08 01:07:31.4350|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN85Q1650V" completed keep alive response. 
+2016-09-08 01:07:31.7276|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 01:07:31.7276|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 604.0717ms 404  
+2016-09-08 01:07:31.7426|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN85Q16510" completed keep alive response. 
+2016-09-08 01:07:46.3075|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 01:07:46.3205|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 01:07:46.3610|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '4ea28172-4e42-4ca0-b62c-d6a1fc353fb0' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:07:46.3610|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '4a36fda5-7e98-446d-8402-d41168f23f35' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:07:46.4551|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 01:07:56.7641|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Student] 的 action[Get] 时产生异常,Error[Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.] 
+2016-09-08 01:07:58.7284|Microsoft.AspNetCore.Server.Kestrel|ERROR|Connection id "0HKUN85Q1650V": An unhandled exception was thrown by the application. Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.
+2016-09-08 01:07:58.7284|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 12432.5533ms 200  
+2016-09-08 01:07:58.7459|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN85Q1650V" completed keep alive response. 
+2016-09-08 01:10:03.3748|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 01:10:03.6363|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 01:10:03.6723|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN877HCEL7" started. 
+2016-09-08 01:10:03.6723|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN877HCEL6" started. 
+2016-09-08 01:10:03.9253|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 01:10:03.9253|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 01:10:04.0508|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 175.8468ms 200  
+2016-09-08 01:10:04.1889|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN877HCEL7" completed keep alive response. 
+2016-09-08 01:10:04.5154|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 01:10:04.5259|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 666.7044ms 404  
+2016-09-08 01:10:04.5259|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN877HCEL6" completed keep alive response. 
+2016-09-08 01:10:07.3204|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 01:10:07.3204|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 01:10:07.3754|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '953dd5d5-cb9e-4628-9b0d-d999ae371902' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:10:07.3754|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '493446a4-9487-481a-8957-462af544d365' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:10:07.4729|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 01:10:11.1124|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.StudentController.Get (ApiService) with arguments (1) - ModelState is Valid 
+2016-09-08 01:10:22.5787|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Student] 的 action[Get] 时产生异常,Error[The method or operation is not implemented.] 
+2016-09-08 01:10:22.6277|Microsoft.AspNetCore.Server.Kestrel|ERROR|Connection id "0HKUN877HCEL7": An unhandled exception was thrown by the application. The method or operation is not implemented.
+2016-09-08 01:10:22.6402|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 15318.7826ms 200  
+2016-09-08 01:10:22.6402|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN877HCEL7" completed keep alive response. 
+2016-09-08 01:46:55.4921|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 01:46:55.7461|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 01:46:55.8281|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN8RQQ4CDG" started. 
+2016-09-08 01:46:55.8281|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN8RQQ4CDF" started. 
+2016-09-08 01:46:56.0552|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 01:46:56.0552|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 01:46:56.1732|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 170.9066ms 200  
+2016-09-08 01:46:56.3102|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN8RQQ4CDF" completed keep alive response. 
+2016-09-08 01:46:56.6152|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 01:46:56.6262|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 642.0617ms 404  
+2016-09-08 01:46:56.6262|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN8RQQ4CDG" completed keep alive response. 
+2016-09-08 01:47:03.1626|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 01:47:03.1771|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 01:47:03.2191|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '470a0e25-ecd6-4907-b884-11832d5f4e6f' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:47:03.2191|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '0962dd7d-063c-4d11-868b-b6e069adac1a' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:47:03.3101|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 01:47:15.2211|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Student] 的 action[Get] 时产生异常,Error[Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.] 
+2016-09-08 01:47:15.3381|Microsoft.AspNetCore.Server.Kestrel|ERROR|Connection id "0HKUN8RQQ4CDF": An unhandled exception was thrown by the application. Unable to resolve service for type 'Api.Interfaces.IStudentManager' while attempting to activate 'ApiService.Controllers.StudentController'.
+2016-09-08 01:47:15.3381|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 12186.9919ms 200  
+2016-09-08 01:47:15.3541|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN8RQQ4CDF" completed keep alive response. 
+2016-09-08 01:58:51.1355|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 01:58:51.3801|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 01:58:51.4041|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN92G2CLKN" started. 
+2016-09-08 01:58:51.4041|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN92G2CLKM" started. 
+2016-09-08 01:58:51.6661|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 01:58:51.6661|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 01:58:51.7876|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 183.6645ms 200  
+2016-09-08 01:58:51.8976|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN92G2CLKM" completed keep alive response. 
+2016-09-08 01:58:52.2097|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 01:58:52.2217|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 631.3005ms 404  
+2016-09-08 01:58:52.2292|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN92G2CLKN" completed keep alive response. 
+2016-09-08 01:58:56.3567|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 01:58:56.3692|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 01:58:56.4102|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '78a6267b-f7c4-4393-8933-a0d96b03b3d0' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:58:56.4167|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '251978c9-0d91-460e-ae26-5e04b08c3506' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 01:58:56.5083|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:00:16.5404|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:00:16.7753|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:00:16.9053|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN939HPNS5" started. 
+2016-09-08 02:00:16.9053|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN939HPNS4" started. 
+2016-09-08 02:00:17.1409|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:00:17.1409|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:00:17.2549|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 168.0269ms 200  
+2016-09-08 02:00:17.3754|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN939HPNS4" completed keep alive response. 
+2016-09-08 02:00:17.6720|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:00:17.6849|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 616.5652ms 404  
+2016-09-08 02:00:17.6849|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN939HPNS5" completed keep alive response. 
+2016-09-08 02:00:22.0279|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:00:22.0409|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:00:22.0864|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id 'c3b9ad5f-fc22-4700-ac4d-7b078015ce6e' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:00:22.0864|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '66ef8917-8e5d-4ffe-a1b7-5bd48fdc1a3e' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:00:22.1869|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:02:22.1401|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:02:22.3976|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:02:22.6461|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN94F0VHMA" started. 
+2016-09-08 02:02:22.6461|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN94F0VHM9" started. 
+2016-09-08 02:02:22.8847|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:02:22.8847|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:02:23.0022|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 185.7165ms 200  
+2016-09-08 02:02:23.1277|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN94F0VHM9" completed keep alive response. 
+2016-09-08 02:02:23.4367|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:02:23.4472|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 643.7571ms 404  
+2016-09-08 02:02:23.4472|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN94F0VHMA" completed keep alive response. 
+2016-09-08 02:02:30.6362|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:02:30.6362|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:02:30.6877|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id 'b251f7a2-87cc-4feb-b597-5570c40b703f' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:02:30.6877|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '6ba5ab32-ba9a-4815-8075-f003f5e0284d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:02:30.7792|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:02:33.8652|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.StudentController.Get (ApiService) with arguments (1) - ModelState is Valid 
+2016-09-08 02:03:22.7601|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:03:23.0121|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:03:23.1611|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN95122UHS" started. 
+2016-09-08 02:03:23.1611|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN95122UHT" started. 
+2016-09-08 02:03:23.3701|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:03:23.3701|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:03:23.4957|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 163.8687ms 200  
+2016-09-08 02:03:23.6157|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN95122UHS" completed keep alive response. 
+2016-09-08 02:03:23.9382|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:03:23.9482|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 632.1164ms 404  
+2016-09-08 02:03:23.9482|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN95122UHT" completed keep alive response. 
+2016-09-08 02:19:12.4661|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:19:12.7261|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:19:12.8251|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9DS2OPHU" started. 
+2016-09-08 02:19:12.8251|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9DS2OPHT" started. 
+2016-09-08 02:19:13.0331|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:19:13.0331|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:19:13.1512|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 161.4247ms 200  
+2016-09-08 02:19:13.2802|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9DS2OPHU" completed keep alive response. 
+2016-09-08 02:19:13.5957|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:19:13.6047|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 629.2366ms 404  
+2016-09-08 02:19:13.6047|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9DS2OPHT" completed keep alive response. 
+2016-09-08 02:19:36.5581|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:19:36.5707|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:19:36.6122|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '32cdf67a-4ab7-4647-b94f-6378cd4573c4' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:19:36.6122|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '465d04be-3569-4853-8d17-515161a88eb6' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:19:36.7022|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:21:30.9173|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:21:31.1709|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:21:31.2444|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9F5AR9T9" started. 
+2016-09-08 02:21:31.2444|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9F5AR9TA" started. 
+2016-09-08 02:21:31.5029|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:21:31.5029|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:21:31.6484|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 222.2175ms 200  
+2016-09-08 02:21:31.7869|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9F5AR9TA" completed keep alive response. 
+2016-09-08 02:21:32.0790|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:21:32.0880|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 676.8596ms 404  
+2016-09-08 02:21:32.0880|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9F5AR9T9" completed keep alive response. 
+2016-09-08 02:21:35.5969|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:21:35.6149|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:21:35.6594|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '401c2be1-72a2-4dd0-8abf-dcb2c1e21698' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:21:35.6644|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '3212e70b-5eae-404d-944a-aa6be4fa04d0' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:21:35.7695|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:22:07.3116|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:22:07.5620|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:22:07.7021|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9FG6HEUD" started. 
+2016-09-08 02:22:07.7021|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9FG6HEUE" started. 
+2016-09-08 02:22:07.9601|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:22:07.9631|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:22:08.4887|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:22:08.4887|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:22:08.5172|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 624.1173ms 404  
+2016-09-08 02:22:08.5497|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id 'def48485-0598-4347-8034-fd0f5c644a2f' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:22:08.5577|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '8cef1ee4-c9f9-48d2-a9dd-de5f8b2b924b' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:22:08.5942|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9FG6HEUD" completed keep alive response. 
+2016-09-08 02:22:08.6947|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:23:36.8282|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:23:37.1112|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9GAR1PD7" started. 
+2016-09-08 02:23:37.1392|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9GAR1PD8" started. 
+2016-09-08 02:23:37.1848|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:23:37.3843|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:23:37.3843|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:23:37.5093|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 188.6009ms 200  
+2016-09-08 02:23:37.6443|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9GAR1PD8" completed keep alive response. 
+2016-09-08 02:23:37.9408|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:23:37.9498|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 645.5421ms 404  
+2016-09-08 02:23:37.9498|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9GAR1PD7" completed keep alive response. 
+2016-09-08 02:23:42.7790|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:23:42.7900|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:23:42.8315|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '5b2eabd3-10ae-43d4-a18d-99548019e810' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:23:42.8365|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id 'f7a3ab53-79f3-4a21-985c-ee94d670b4f0' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:23:42.9275|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:23:45.3033|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method ApiService.Controllers.StudentController.Get (ApiService) with arguments (1) - ModelState is Valid 
+2016-09-08 02:29:29.1992|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:29:29.4327|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:29:29.5652|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9JJSFHK9" started. 
+2016-09-08 02:29:29.5652|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9JJSFHKA" started. 
+2016-09-08 02:29:29.7882|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:29:29.7912|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:29:29.9093|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 183.6618ms 200  
+2016-09-08 02:29:30.0408|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9JJSFHKA" completed keep alive response. 
+2016-09-08 02:29:30.3083|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:29:30.3083|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 604.5374ms 404  
+2016-09-08 02:29:30.3229|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9JJSFHK9" completed keep alive response. 
+2016-09-08 02:29:34.8374|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:29:34.8374|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:29:34.8905|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '015f2701-51a2-497e-9566-79caff7e1c6d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:29:34.8905|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '4ad252c4-2796-4616-8945-2f4f4a605950' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:29:34.9829|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:30:16.9986|ApiService.Filters.LogErrorFilter|INFO|在执行 controller[Student] 的 action[Get] 时产生异常,Error[An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = StudentApp (ReflectionActivator), Services = [Api.Interfaces.IStudentManager], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = StudentRepository (ReflectionActivator), Services = [Api.Repositories.Interface.IStudentRepository], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Api.Repositories.StudentRepository' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Autofac.IContainer Container' of constructor 'Void .ctor(Autofac.IContainer)'. (See inner exception for details.) (See inner exception for details.)] 
+2016-09-08 02:30:17.1262|Microsoft.AspNetCore.Server.Kestrel|ERROR|Connection id "0HKUN9JJSFHKA": An unhandled exception was thrown by the application. An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = StudentApp (ReflectionActivator), Services = [Api.Interfaces.IStudentManager], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = StudentRepository (ReflectionActivator), Services = [Api.Repositories.Interface.IStudentRepository], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Api.Repositories.StudentRepository' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Autofac.IContainer Container' of constructor 'Void .ctor(Autofac.IContainer)'. (See inner exception for details.) (See inner exception for details.)
+2016-09-08 02:30:17.1382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 42301.48ms 200  
+2016-09-08 02:30:17.1382|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9JJSFHKA" completed keep alive response. 
+2016-09-08 02:32:07.6044|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:32:07.8594|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:32:07.9739|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9L3366IS" started. 
+2016-09-08 02:32:07.9739|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9L3366IR" started. 
+2016-09-08 02:32:08.1955|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:32:08.1955|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:32:08.3025|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 164.4535ms 200  
+2016-09-08 02:32:08.4300|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9L3366IR" completed keep alive response. 
+2016-09-08 02:32:08.7121|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:32:08.7121|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 596.8966ms 404  
+2016-09-08 02:32:08.7266|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9L3366IS" completed keep alive response. 
+2016-09-08 02:32:18.0964|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:32:18.1094|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:32:18.1504|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id 'c5a5baff-6838-4e70-93d8-d9b4d10bf5c9' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:32:18.1504|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '40ab5b48-7a72-4faf-9d35-20960a162d49' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:32:18.2419|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:42:23.5737|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:42:23.7772|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:42:23.9047|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9QQL5PV3" started. 
+2016-09-08 02:42:23.9047|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9QQL5PV2" started. 
+2016-09-08 02:42:24.0912|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:42:24.0912|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:42:24.2117|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 150.9021ms 200  
+2016-09-08 02:42:24.3537|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9QQL5PV2" completed keep alive response. 
+2016-09-08 02:42:24.6218|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:42:24.6218|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 587.3877ms 404  
+2016-09-08 02:42:24.6388|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUN9QQL5PV3" completed keep alive response. 
+2016-09-08 02:42:27.3261|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:42:27.3386|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:42:27.3791|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id 'adcc45b9-5240-4280-a55f-ecd56bd03162' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:42:27.3841|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '79fcf0d0-d3c5-4482-b25b-8476396f0807' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:42:27.4831|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 
+2016-09-08 02:54:56.7274|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-09-08 02:54:56.9594|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-09-08 02:54:56.9919|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUNA1R34RVE" started. 
+2016-09-08 02:54:56.9919|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUNA1R34RVD" started. 
+2016-09-08 02:54:57.2279|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/   
+2016-09-08 02:54:57.2279|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:5000/api/  0 
+2016-09-08 02:54:57.3534|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 182.7322ms 200  
+2016-09-08 02:54:57.4920|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUNA1R34RVD" completed keep alive response. 
+2016-09-08 02:54:57.7805|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2016-09-08 02:54:57.7910|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 638.8842ms 404  
+2016-09-08 02:54:57.7910|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HKUNA1R34RVE" completed keep alive response. 
+2016-09-08 02:55:01.2224|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/api/Student/1   
+2016-09-08 02:55:01.2364|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'api/Student/{id}'. 
+2016-09-08 02:55:01.2825|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Put (ApiService)' with id '72a81689-c3eb-442a-89cd-02283ee7936c' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:55:01.2825|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'ApiService.Controllers.StudentController.Delete (ApiService)' with id '0dafe45b-d13c-4539-a34a-7a3792bab9f3' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2016-09-08 02:55:01.3849|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action ApiService.Controllers.StudentController.Get (ApiService) 

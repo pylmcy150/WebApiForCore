@@ -1,4 +1,5 @@
-﻿using Autofac;
+﻿using Api.Domain;
+using Autofac;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,8 @@ namespace Api.Repositories
             builder.RegisterAssemblyTypes(base.ThisAssembly)
                 .Where(t => t.Name.EndsWith("Repository"))
                 .AsImplementedInterfaces();
+
+            AutoMapperProfileRegister.Register();
         }
     }
 }

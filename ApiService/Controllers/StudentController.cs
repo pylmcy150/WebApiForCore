@@ -34,10 +34,18 @@ namespace ApiService.Controllers
             return _studentManager.Get(id);
         }
 
+        [HttpGet]
+        [Route("list")]
+        public List<StudentDto> GetList()
+        {
+            return _studentManager.GetList();
+        }
+
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]StudentDto dto)
         {
+            _studentManager.Add(dto);
         }
 
         // PUT api/values/5

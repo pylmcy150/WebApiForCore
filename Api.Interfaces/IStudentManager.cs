@@ -9,5 +9,9 @@ namespace Api.Interfaces
     public interface IStudentManager
     {
         StudentDto Get(string id);
+
+        List<StudentDto> GetList();
+
+        void Add(StudentDto dto);
     }
 }

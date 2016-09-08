@@ -1854,7 +1854,7 @@
           }
         }
       },
-      "sqlSugarCore/2.7.0.1": {
+      "sqlSugarCore/2.7.0.7": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
@@ -4020,7 +4020,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
-          "NETStandard.Library": "1.6.0"
+          "NETStandard.Library": "1.6.0",
+          "sqlSugarCore": "2.7.0.7"
         },
         "compile": {
           "netstandard1.6/Api.Infrastructure.dll": {}
@@ -6262,7 +6263,7 @@
       "runtime.win7-x86.runtime.native.System.Data.SqlClient.sni/4.0.1": {
         "type": "package"
       },
-      "sqlSugarCore/2.7.0.1": {
+      "sqlSugarCore/2.7.0.7": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
@@ -8297,7 +8298,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
-          "NETStandard.Library": "1.6.0"
+          "NETStandard.Library": "1.6.0",
+          "sqlSugarCore": "2.7.0.7"
         },
         "compile": {
           "netstandard1.6/Api.Infrastructure.dll": {}
@@ -10499,7 +10501,7 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
-      "sqlSugarCore/2.7.0.1": {
+      "sqlSugarCore/2.7.0.7": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
@@ -12534,7 +12536,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
-          "NETStandard.Library": "1.6.0"
+          "NETStandard.Library": "1.6.0",
+          "sqlSugarCore": "2.7.0.7"
         },
         "compile": {
           "netstandard1.6/Api.Infrastructure.dll": {}
@@ -14745,7 +14748,7 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
-      "sqlSugarCore/2.7.0.1": {
+      "sqlSugarCore/2.7.0.7": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
@@ -16780,7 +16783,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
-          "NETStandard.Library": "1.6.0"
+          "NETStandard.Library": "1.6.0",
+          "sqlSugarCore": "2.7.0.7"
         },
         "compile": {
           "netstandard1.6/Api.Infrastructure.dll": {}
@@ -19489,13 +19493,13 @@
         "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll"
       ]
     },
-    "sqlSugarCore/2.7.0.1": {
-      "sha512": "Ko21G4ddXGNkzCg4IdxWtDoDZlvmx5x0GYAXYJDPBaAH3p43nsfqw469reu2+UJV/Ln+wmHeKQ74+QZfmZWUtg==",
+    "sqlSugarCore/2.7.0.7": {
+      "sha512": "Dvq30Y/MRwgm11sMZMJ/zZ1m95wR/sq+SNHfP8rCA1We4RVAX1BCkj5F+Q/ZLt1630v2o1pt5KKNeMLrJG2AsA==",
       "type": "package",
-      "path": "sqlSugarCore/2.7.0.1",
+      "path": "sqlSugarCore/2.7.0.7",
       "files": [
         "lib/netstandard1.6/SqlSugarForCore.dll",
-        "sqlSugarCore.2.7.0.1.nupkg.sha512",
+        "sqlSugarCore.2.7.0.7.nupkg.sha512",
         "sqlSugarCore.nuspec"
       ]
     },
@@ -24379,6 +24383,7 @@
       "Api.Application >= 1.0.0-*",
       "Api.Common >= 1.0.0-*",
       "Api.Dto >= 1.0.0-*",
+      "Api.Infrastructure >= 1.0.0-*",
       "Api.Interfaces >= 1.0.0-*",
       "Api.Repositories >= 1.0.0-*",
       "Autofac.Extensions.DependencyInjection >= 4.0.0",

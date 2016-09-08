@@ -9,13 +9,15 @@ namespace Api.Domain.Models.Profile
 {
     public class StudentMapper: AutoMapper.Profile
     {
-        protected StudentMapper()
+        public StudentMapper()
         {
             base.CreateMap<Student, StudentDto>()
                 .ForMember(desc => desc.Sex, opt => opt.MapFrom(src => src.Sex.HasValue ? (src.Sex.Value ? "男" : "女") : null));
+            //.ConstructUsingServiceLocator();
 
             base.CreateMap<StudentDto, Student>()
                 .ForMember(desc => desc.Sex, opt => opt.ResolveUsing<SexToBoolResolver>());
+                //.ConstructUsingServiceLocator();
         }
     }
 

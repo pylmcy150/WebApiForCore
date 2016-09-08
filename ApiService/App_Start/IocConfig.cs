@@ -1,4 +1,5 @@
-﻿using Autofac;
+﻿using Api.Infrastructure;
+using Autofac;
 using Autofac.Core;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
@@ -33,7 +34,7 @@ namespace ApiService
             }
 
             //builder.RegisterInstance<string>(configuration.GetConnectionString("DefaultConnection")).Named<string>("DefaultConnection");
-            builder.RegisterType<SqlSugar.SqlSugarClient>()
+            builder.RegisterType<DataContext>()
                    .WithParameter("connectionString", configuration.GetConnectionString("DefaultConnection"));
 
             builder.Populate(services);

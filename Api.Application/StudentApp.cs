@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Api.Dto;
 using Api.Repositories.Interface;
 using AutoMapper;
+using Api.Domain.Models;
 
 namespace Api.Application
 {
@@ -21,6 +22,16 @@ namespace Api.Application
         public StudentDto Get(string id)
         {
             return Mapper.Map<StudentDto>(_repository.GetStudentById(id));
+        }
+
+        public void Add(StudentDto dto)
+        {
+            _repository.InsertStudent(Mapper.Map<Student>(dto));
+        }
+
+        public List<StudentDto> GetList()
+        {
+            return Mapper.Map<List<StudentDto>>(_repository.GetStudents());
         }
     }
 }

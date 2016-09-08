@@ -9,5 +9,9 @@ namespace Api.Repositories.Interface
     public interface IStudentRepository
     {
         Student GetStudentById(string id);
+
+        List<Student> GetStudents();
+
+        bool InsertStudent(Student student);
     }
 }

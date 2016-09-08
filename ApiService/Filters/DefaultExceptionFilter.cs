@@ -18,17 +18,7 @@ namespace ApiService.Filters
         {
             if (context != null && context.ExceptionHandled)
             {
-                //JsonResult js = new JsonResult(context.Exception.Message);
-                //js.StatusCode = HttpStatusCode.InternalServerError;
-                //context.Result = new ExceptionResult(context.Exception, true);
-
-                //context.Result = new JsonResult("123");
-                //var exception = new ExceptionResult(context.Exception, false);
-                //context.HttpContext.Response.StatusCode =
-                //    exception.StatusCode.HasValue ? exception.StatusCode.Value : (int)HttpStatusCode.NotImplemented;
                 context.ExceptionHandled = true;
-                //context.HttpContext.Response.StatusCode = (int)HttpStatusCode.NoContent;
-                //context.Result = new RedirectToActionResult("Test", "Values", new RouteValueDictionary() {  });
             }
         }
     }

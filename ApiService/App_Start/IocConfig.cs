@@ -28,12 +28,9 @@ namespace ApiService
                 section.AssemblyNames.ForEach(x =>
                 {
                     assemblyList.Add(AssemblyLoadContext.Default.LoadFromAssemblyPath(Path.Combine(AppContext.BaseDirectory, x)));
-                    //assemblyList.Add(Assembly.Load(new AssemblyName(x)));
                 });
                 builder.RegisterAssemblyModules(assemblyList.ToArray());
             }
-
-            //builder.RegisterInstance<string>(configuration.GetConnectionString("DefaultConnection")).Named<string>("DefaultConnection");
             builder.RegisterType<DataContext>()
                    .WithParameter("connectionString", configuration.GetConnectionString("DefaultConnection"));
 

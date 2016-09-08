@@ -25,11 +25,6 @@ namespace ApiService.Filters
                 string msgTemplate = "在执行 controller[{0}] 的 action[{1}] 时产生异常,Error[{2}]";
                 logger.LogInformation(string.Format(msgTemplate, controllerName, actionName, context.Exception.Message));
             }
-            //if (filterContext.HttpContext.IsCustomErrorEnabled)
-            //{
-            //    filterContext.ExceptionHandled = true;
-            //    base.OnException(filterContext);
-            //}
         }
     }
 }

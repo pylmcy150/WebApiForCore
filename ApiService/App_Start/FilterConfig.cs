@@ -13,11 +13,8 @@ namespace ApiService
         {
             return options =>
             {
-
-
                 options.Filters.Add(typeof(DefaultExceptionFilter)); // by type
                 options.Filters.Add(typeof(LogErrorFilter));
-                //options.Filters.Add(new SampleAsyncActionFilter()); // an instance
             };
         }
     }

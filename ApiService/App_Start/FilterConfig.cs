@@ -13,10 +13,6 @@ namespace ApiService
         {
             return options =>
             {
-                // Add XML Content Negotiation
-                //options.RespectBrowserAcceptHeader = true;
-                //options.InputFormatters.Add(new XmlSerializerInputFormatter());
-                //options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
 
 
                 options.Filters.Add(typeof(DefaultExceptionFilter)); // by type
